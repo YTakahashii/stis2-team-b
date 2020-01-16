@@ -12,6 +12,23 @@ body {
   margin: 0;
 }
 
+nav ul li a {
+  display: block;
+  line-height: 56px;
+  transition: 0.5s ease-out;
+  text-decoration: none;
+  color: white;
+}
+​
+nav a:hover {
+  background: black;
+  transition: 0.5s ease-out;
+}
+​
+nav a:visited {
+  color: white;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
