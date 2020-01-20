@@ -1,0 +1,54 @@
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav h1 {
+  text-align: center;
+  flex: 4;
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  color: #fff;
+  padding: 0 8px;
+}
+
+header nav a {
+  line-height: 56px;
+}
+
+header nav ul li {
+  list-style-type: none;
+  text-align: center;
+  flex: 1;
+  padding: 8px;
+  min-width: 90px;
+  font-weight: bold;
+}
+
+header nav ul li a {
+  display: block;
+  line-height: 56px;
+  transition: 0.5s ease-out;
+  text-decoration: none;
+  color: white;
+}
+
+​header nav a:hover {
+  background: black;
+  transition: 0.5s ease-out;
+}
+
+​header nav a:visited {
+  color: white;
+}
