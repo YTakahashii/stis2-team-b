@@ -9,17 +9,20 @@ header {
 header nav {
   display: flex;
   align-items: center;
+  color: #010101;/*文字色*/
+  background: #eaf3ff;/*背景色*/
+  border-bottom: dotted 3px #516ab6;/*下線*/
 }
 
 header nav h1 {
   text-align: center;
   flex: 4;
-  color: #fff;
+  color: #010101;/*文字色*/
 }
 
 header nav ul {
   display: flex;
-  color: #fff;
+  color: #010101;/*文字色*/
   padding: 0 8px;
 }
 
@@ -41,7 +44,7 @@ header nav ul li a {
   line-height: 56px;
   transition: 0.5s ease-out;
   text-decoration: none;
-  color: white;
+  color: #010101;/*文字色*/
 }
 
 ​header nav a:hover {

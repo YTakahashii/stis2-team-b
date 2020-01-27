@@ -1,5 +1,10 @@
 .headline {
   margin-bottom: 32px;
+  border-top: dotted 3px #516ab6;/*下線*/
+}
+
+.headline:first-child{
+  border-top: none;
 }
 
 .middle-heading {
