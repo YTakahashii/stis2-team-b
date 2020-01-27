@@ -1,43 +1,55 @@
-.bigblock{
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+.float_parent {
+  overflow: hidden;
 }
 
-.block{
-    box-sizing: border-box;
-    float: left;
-    width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 1rem;
-    margin-bottom: 2.5rem;
+.bigblock {
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+.block {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1rem;
 }
 
-.icon{
-    text-align: center;
-    font-size: 2.75rem;
-    float: left;
-    width: 15%;
-    padding-top: 30px;
-    padding-left: -15px;
-    padding-right: -15px;
+.block_last {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 2.5rem;
 }
 
-.flaberText{
-    position: relative;
-    width: 80%;
-    padding-left: 15px;
-    padding-right: 15px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.icon {
+  text-align: center;
+  font-size: 2.75rem;
+  float: left;
+  width: 15%;
+  padding-top: 30px;
+  padding-left: -15px;
+  padding-right: -15px;
+}
+
+.flaberText {
+  position: relative;
+  width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
 }

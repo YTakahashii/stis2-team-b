@@ -1,0 +1,59 @@
+.study_wrapper {
+  display: flex;
+  padding: 0 16px;
+  justify-content: start;
+}
+
+.studey_image {
+  width: 600px;
+}
+
+.studey_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 48px 0 80px;
+}
+
+.studey_content_row {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.studey_content_row span {
+  color: white;
+}
+
+.circle {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  min-height: 80px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.circle_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.icon_text {
+  font-size: 2.6rem;
+  color: white;
+}
+
+.study_footer {
+  width: 100%;
+}
+
+.sample_link {
+  float: right;
+  margin-right: 32px;
+  font-size: 1.5rem;
+}

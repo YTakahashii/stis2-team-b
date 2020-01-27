@@ -1,9 +1,9 @@
 .headline {
   margin-bottom: 32px;
-  border-top: dotted 3px #516ab6;/*下線*/
+  border-top: dotted 3px #516ab6; /*下線*/
 }
 
-.headline:first-child{
+.headline:first-child {
   border-top: none;
 }
 
